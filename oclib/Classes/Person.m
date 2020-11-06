@@ -9,6 +9,6 @@
 
 @implementation Person
 - (void)hello{
-    NSLog(@"hello v3");
+    NSLog(@"hello v4");
 }
 @end

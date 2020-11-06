@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'oclib_Example' do
-  pod 'oclib', :path => '../'
+  pod 'oclib'
 
   target 'oclib_Tests' do
     inherit! :search_paths

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		08EE17DB483EF8E817491875 /* Pods-oclib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oclib_Example.release.xcconfig"; path = "Target Support Files/Pods-oclib_Example/Pods-oclib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2E361C8B6E84FB2BC509AAD9 /* oclib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = oclib.podspec; path = ../oclib.podspec; sourceTree = "<group>"; };
+		2E361C8B6E84FB2BC509AAD9 /* oclib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = oclib.podspec; path = ../oclib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		407E85520094E5AADDEECAF2 /* Pods_oclib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oclib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E625251E5EEB2DEE3B0749 /* Pods_oclib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oclib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* oclib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oclib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +64,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4F10749F03018DFCA7E41FD /* Pods-oclib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oclib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-oclib_Tests/Pods-oclib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E539491ECB4532FDC51176C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EA0FC0E7A2A6517C020FCF7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E539491ECB4532FDC51176C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EA0FC0E7A2A6517C020FCF7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EA6C927A4BBF817E1B198AB5 /* Pods-oclib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oclib_Tests.release.xcconfig"; path = "Target Support Files/Pods-oclib_Tests/Pods-oclib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				E4F10749F03018DFCA7E41FD /* Pods-oclib_Tests.debug.xcconfig */,
 				EA6C927A4BBF817E1B198AB5 /* Pods-oclib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

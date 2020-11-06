@@ -7,6 +7,7 @@
 //
 
 #import "AAViewController.h"
+#import "Person.h"
 
 @interface AAViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    Person *p = [[Person alloc]init];
+    [p hello];
 }
 
 - (void)didReceiveMemoryWarning

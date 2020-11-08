@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'oclib'
+  s.name             = 'oclib2'
   s.version          = '0.1.5'
   s.summary          = 'A short description of oclib.'
 
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'qiucheng' => 'qiucheng@bytedance.com' }
-  s.source           = { :git => 'https://github.com/sakopqiu/oclib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sakopqiu/oclib2.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
